@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  background: #f7efd2;
+  font-family: Arial;
+}
+
+/* Barra superior */
+.vee-nav {
+  background: #e6925c;
+  padding: 12px 15px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Avatar */
+.vee-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+/* Logo */
+.vee-logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+  flex-grow: 1;
+  font-family: "Georgia", serif;
+}
+
+/* Botón hamburguesa */
+.vee-toggler {
+  border: none;
+  background: transparent;
+}
+
+.vee-menu-icon {
+  font-size: 32px;
+  color: white;
+}
+
+/* Offcanvas estilo */
+.vee-offcanvas {
+  background: #f7efd2;
+}
+
+/* Search bar estilo de la imagen */
+.search-bar {
+  width: 100%;
+  background: #e4d6cc;
+  border-radius: 20px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+/* Links */
+.nav-link {
+  font-size: 18px;
+  color: #5a3a34 !important;
+  margin-bottom: 8px;
+}
+
+
+.topbar {
+  background: #e6925c;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.logo {
+  font-size: 26px;
+}
+.menu-icon {
+  font-size: 28px;
+}
+
+
+
+.search-bar {
+  width: 90%;
+  margin: 20px auto;
+  background: #e4d6cc; /* color similar al de la imagen */
+  border-radius: 20px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+
+.section-title {
+  background: #c95e42;
+  color: white;
+  text-align: center;
+  margin: 15px auto;
+  padding: 8px 20px;
+  width: fit-content;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------------
+   FORZAR A QUE SOLO SE VEA 1 SLIDE
+----------------------------------------- */
+.carousel-inner {
+  overflow: hidden !important;
+}
+
+/* ----------------------------------------
+   SLIDES SIN ROMPER BOOTSTRAP
+----------------------------------------- */
+.carousel-item {
+  height: 350px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* ----------------------------------------
+   IMÁGENES
+----------------------------------------- */
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+/* ----------------------------------------
+   TEXTO
+----------------------------------------- */
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.slide-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.slide-text p {
+  max-width: 450px;
+  font-size: 18px;
+}
+
+/* ----------------------------------------
+   OTROS ELEMENTOS
+----------------------------------------- */
+.stars {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.read-btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #d97462;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Iconos de navegación */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+
+
+
+.card-text button {
+  float: right;
+}
+
+.category {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.terror { background: #651c1c; }
+.fantasia { background: #4a6d64; }
+.scifi { background: #2e4b5c; }
+
+.more-btn {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #5e4747;
+  color: white;
+}
+
+.community-card {
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+}
+.community-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.join-btn {
+  background: #8f3b3b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
